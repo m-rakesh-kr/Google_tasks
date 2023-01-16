@@ -2,14 +2,6 @@
 # Google Tasks(FastApi)
 
 
-## Clone Project
-```console
-Clone with HTTPS => https://gitlab.com/inexture-python/pythonlearning/google-tasks-fastapi.git
-
-OR 
-
-Clone with SSH => git@gitlab.com:inexture-python/pythonlearning/google-tasks-fastapi.git
-```
 Current updated code is in `dev` branch. To change branch `git checkout dev`.
 
 ## Install requirements.txt

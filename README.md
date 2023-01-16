@@ -1,8 +1,17 @@
 
 # Google Tasks(FastApi)
 
+This project is a simple implementation of Google Tasks API using FastAPI. It allows users to create and manage their tasks, as well as organize them into task lists. The API makes use of the Google Tasks API endpoints to retrieve and modify the user's tasks.
 
-Current updated code is in `dev` branch. To change branch `git checkout dev`.
+The project includes functionality such as creating and editing tasks, marking tasks as complete, creating task lists, and viewing task lists and their tasks. The project is well-documented and easy to understand, making it a great learning tool for anyone interested in building web applications using the FastAPI framework.
+
+The project uses OAuth2 for authentication and authorization, it's easy to connect to Google Tasks API and retrieve user's tasks and task lists. The project also makes use of FastAPI's built-in support for JSON Web Tokens (JWT) to ensure that only authorized users can access the API.
+
+The project is designed to be easily extensible and can be used as a starting point for more complex projects that involve the Google Tasks API. The project is well-organized, making it easy to add new features and functionality.
+
+Overall, this project is a great starting point for anyone looking to build a web application that interacts with the Google Tasks API using FastAPI. It's a great way to learn how to use the Google Tasks API and how to build a web application using the FastAPI framework.
+
+Current updated code is in `main` branch. To change branch `git checkout main`.
 
 ## Install requirements.txt
 ```console

@@ -1,5 +1,6 @@
 
 # Google Tasks(FastApi)
+## Project Inroduction:-
 
 This project is a simple implementation of Google Tasks API using FastAPI. It allows users to create and manage their tasks, as well as organize them into task lists. The API makes use of the Google Tasks API endpoints to retrieve and modify the user's tasks.
 
@@ -11,12 +12,49 @@ The project is designed to be easily extensible and can be used as a starting po
 
 Overall, this project is a great starting point for anyone looking to build a web application that interacts with the Google Tasks API using FastAPI. It's a great way to learn how to use the Google Tasks API and how to build a web application using the FastAPI framework.
 
+## Project Decription:-
+
+This project is just like clone of Google tasks, In this project, I have used FastApi framework of python and postgresql database, this project include task management features like create tasks, update tasks, delete tasks with date and time and also users can starred their tasks
+
+Before creating any list, tasks first of all users have to create their account by using their email.
+
+If a user forgot your password then users can reset their password also.      
+
+The main feature of this project  is task notification i.e if any user creates a task then the user is to be notified via email on time and before and after the deadline of date and time of task.
+
+For notification of tasks via email, I have used Celery python library and redis and rabbit_mq message brokers.
+
+This project contains features like, Users can create a list, under that list can create tasks under that tasks can create sub_tasks with date and time and users can starred their own favorite tasks also. 
+
 Current updated code is in `main` branch. To change branch `git checkout main`.
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+## Clone Project
+```console
+Clone with HTTPS => https://gitlab.com/inexture-python/pythonlearning/google-tasks-fastapi.git
+
+OR 
+
+Clone with SSH => git@gitlab.com:inexture-python/pythonlearning/google-tasks-fastapi.git
+```
+Current updated code is in `dev` branch. To change branch `git checkout dev`.
 
 ## Install requirements.txt
 ```console
 pip install -r requirements.txt
 ```
+## Prerequisites 
+
+## Install Redis or rabbit_mq message broker in ubuntu
+```console
+Reids:- sudo apt install redis-server 
+                    or
+Rabbitmq:- sudo apt-get install rabbitmq-server
+
+```
+
+
 
 ## Add Configurations to `.env` file in root directory.
 ```console
@@ -232,3 +270,6 @@ PUT    /api/v1/update/{sub_task_id}/sub_task (Update)
 DELETE /api/v1/delete/{sub_task_id}/sub_task (Delete)
 
 ```
+
+## API Documentation 
+[Postman_Api_Docs](https://app.getpostman.com/run-collection/c20befb236b1918d4f50?action=collection%2Fimport)

@@ -30,15 +30,6 @@ Current updated code is in `main` branch. To change branch `git checkout main`.
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-## Clone Project
-```console
-Clone with HTTPS => https://gitlab.com/inexture-python/pythonlearning/google-tasks-fastapi.git
-
-OR 
-
-Clone with SSH => git@gitlab.com:inexture-python/pythonlearning/google-tasks-fastapi.git
-```
-Current updated code is in `dev` branch. To change branch `git checkout dev`.
 
 ## Install requirements.txt
 ```console
